@@ -19,7 +19,7 @@ table(column=(type=long updatewhereclause=yes name=businessentityid dbname="pers
  column=(type=char(60) updatewhereclause=yes name=address_addressline1 dbname="address.addressline1" )
  column=(type=char(30) updatewhereclause=yes name=address_city dbname="city" )
  column=(type=char(36) updatewhereclause=yes name=address_rowguid dbname="rowguid" )
- retrieve="  SELECT Person.Person.businessentityid,   
+ retrieve="  SELECT Person.Person.businessentityid, 
          Person.Person.persontype,   
          Person.Person.namestyle,   
          Person.Person.title,   
@@ -73,4 +73,3 @@ export.xml(headgroups="1" includewhitespace="0" metadatatype=0 savemetadata=0 )
 import.xml()
 export.pdf(method=0 distill.custompostscript="0" xslfop.print="0" nativepdf.customsize=0 nativepdf.customorientation=0 nativepdf.pdfstandard=0 nativepdf.useprintspec=no )
 export.xhtml()
- 
