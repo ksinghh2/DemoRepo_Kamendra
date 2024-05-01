@@ -69,5 +69,5 @@ end type
 
 on uo_1.destroy
 call u_salesreport::destroy
-end on
+end on 
 
