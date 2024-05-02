@@ -36640,8 +36640,6 @@ if idw_header.object.document_update_status[ll_row] = 'P' AND ib_docs_pending=Fa
 	POST wf_docs_pending_msg()		 
 end if
 end if
-
-Messagebox("Hello", "Testig Time")
 end event
 
 event open;integer 	li_rc, li_col_count, li_i, li_connect, li_return,li_form_version_id,li_return_val = 1
