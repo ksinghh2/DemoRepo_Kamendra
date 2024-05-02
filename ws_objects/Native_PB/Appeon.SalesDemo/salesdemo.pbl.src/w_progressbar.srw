@@ -43,6 +43,7 @@ Return 1
 end event
 
 event open;timer(1)
+messagebox('Demo App', 'Testing GIT Repo')
 end event
 
 event activate;//
