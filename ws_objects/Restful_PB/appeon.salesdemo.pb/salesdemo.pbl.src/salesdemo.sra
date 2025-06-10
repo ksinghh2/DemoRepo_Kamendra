@@ -38,7 +38,7 @@ long richtexteditx64type = 3
 long richtexteditversion = 1
 string richtexteditkey = ""
 string appicon = ".\image\CRM.ico"
-string appruntimeversion = "21.0.0.1509"
+string appruntimeversion = "22.2.0.3356"
 boolean manualsession = false
 boolean unsupportedapierror = false
 end type
